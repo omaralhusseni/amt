@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Preserve some global defaults to match previous layout briefly */
+:root {
+  --site-dark: #1a1410;
+  --site-sand: #f5ede0;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  background: var(--site-dark);
+}
